@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ficou fofinho vai</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div id="topo" class="col-12">
+            <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="titulo" href="index.html">Kido's Blog</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#scrollspyHeading1">Pinturas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading2">Van Gogh</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading3">Claude Monet</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#scrollspyHeading4">Pierre Renoir</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron p-3 text-white rounded bg-dark">
+                <div id="citacao" class="col-12">
+                    <figure class="text-center">
+                        <blockquote class="blockquote">
+                            <p>Ache belo tudo o que puder. A maioria das pessoas não acha belo o suficiente.</p>
+                        </blockquote>
+                        <figcaption id="nome" class="blockquote-footer">
+                            Vincent Van Gogh
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div id="cards" class="row">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0">
+                <h4 id="scrollspyHeading1">Pinturas que tiveram um grande marco na hitória da arte<br><br></h4>
+                <div class="row mb-2" style="align-items: center;">
+                    <div id="card1" class="col-sm-6">
+                        <div class="card flex-md-row">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/DorsoMulherSolRenoir.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Torso, Efeito do Sol, 1876 - Pierre Renoir</h5>
+                                        <p class="card-text">Uma obra impressionista que acabou recebendo duras
+                                            críticas pelos internautas com a afirmação de que parecia um corpo em estado
+                                            de
+                                            descomposição pelas manchas
+                                            verdes e violáceas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card2" class="col-sm-6">
+                        <div class="card flex-md-row">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/leonardo-da-vinci-mona-lisa-cke.jpg" class="img-fluid rounded-start">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mona Lisa, 1503-1506 - Leonardo da Vinci</h5>
+                                        <p class="card-text">Ela apresenta o retrato (do busto para cima) de uma mulher
+                                            serena.
+                                            No mundo da arte é a obra mais cara do mundo, avaliada em muitos milhões.
+                                            A identidade da pessoa que supostamente inspirou Leonardo é desconhecida,
+                                            havendo diversas especulações que quem realmente seja.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4 id="scrollspyHeading2">Vincent Van Gogh<br><br></h4>
+                        <img src="img/van-gogh-noite-estrelada-d.jpg" class="img-fluid"
+                            style="max-height: 198px; max-width: 250px;">
+                        <img src="img/vangogh.jfif" class="img-fluid" style="max-height: 198px; max-width: 250px;">
+                        <img src="img/van gogh- girassois.jpg" class="img-fluid"
+                            style="max-height: 198px; max-width: 250px;">
+                    </div>
+                    <div class="accordion col-sm-6" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Sobre Van Gogh
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Vincent van Gogh (1853-1890) foi um importante pintor holandês, um dos maiores
+                                    representantes
+                                    da pintura pós-impressionista. Vincent Willem van Gogh (1853-1890) nasceu em
+                                    Zundert, uma pequena
+                                    aldeia holandesa, no dia 30 de março de 1853. Filho de um pastor calvinista era uma
+                                    criança rebelde
+                                    e insociável.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Seu Suicídio
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Os especialistas acreditam que Van Gogh se matou em julho de 1890 com um tiro
+                                    no peito perto da aldeia de Auvers-sur-Oise, a norte de Paris, onde passou os
+                                    últimos
+                                    meses de vida. Especula-se que a trágica morte desse incrivel artista não tenha sido
+                                    um suicídio
+                                    como muitos dizem por diversos motivos, no entanto como não a provas e testemunhas
+                                    do acontecimento
+                                    não tem como sabermos qual foi o motivo exato.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Características
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    O artista foi caracterizado por alguns como um homem incompreendido, atormentado,
+                                    intempestivo e com distúrbios comportamentais. Por isso, não só suas obras como sua
+                                    vida geram muita curiosidade até os dias de hoje. Van Gogh foi tema de diversos
+                                    livros,
+                                    filmes e documentários e ganhou o seu devido conhecimento apenas após a sua morte.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4 id="scrollspyHeading3">Oscar-Claude Monet<br><br></h4>
+                        <img src="img/mulher com sombrinha monet.jpg" class="img-fluid"
+                            style="max-height: 198px; max-width: 200px;">
+                        <img src="img/Claude_Monet.jpg" class="img-fluid" style="max-height: 198px; max-width: 200px;">
+                        <img src="img/ponte japonesa- monet.jpg" class="img-fluid"
+                            style="max-height: 198px; max-width: 250px;">
+                    </div>
+                    <div class="accordion col-sm-6" id="accordionExample2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    Sobre Claude Monet
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    Claude Monet (1840-1926) foi um pintor francês considerado um dos mais importantes
+                                    pintores da Escola Impressionista. O termo impressionista surgiu durante uma
+                                    exposição
+                                    realizada em 1874, quando o quadro de Monet, "Impressão, Nascer do Sol", foi
+                                    criticado
+                                    por retratar a “impressão” de uma cena e não a realidade.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Curiosidade
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    Claude Monet já vendia seus desenhos e caricaturas (na qual era exímio) nas ruas,
+                                    aos 15 anos de idade. Com a morte da mãe, Monet abandonou a escola. Na época, o
+                                    pintor
+                                    tinha apenas 16 anos. Monet pintou nada menos que 50 telas com a catedral de Havres
+                                    como
+                                    tema.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Características
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    A principal característica da obra de Monet é seu compromisso com o impressionismo
+                                    e suas premissas básicas, como o foco nas pinceladas, na textura e na luz. Este foco
+                                    mudou a partir do tema (um barco, paisagem ou uma pessoa) até a forma como a tinta
+                                    se comporta em uma tela.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h4 id="scrollspyHeading4">Pierre-Auguste Renoir<br><br></h4>
+                        <img src="img/jeanne_samary_c.jpg" class="img-fluid" style="max-height: 198px; max-width: 220px;">
+                        <img src="img/Auto-Retrato-com-Chapeu-Branco.-1910.jpg" class="img-fluid" style="max-height: 198px; max-width: 200px;">
+                        <img src="img/pierre.jpg" class="img-fluid" style="max-height: 198px; max-width: 400px;">
+                    </div>
+                    <div class="accordion col-sm-6" id="accordionExample3">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingUm">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseUm" aria-expanded="false" aria-controls="collapseUm">
+                                    Sobre Pierre Renoir
+                                </button>
+                            </h2>
+                            <div id="collapseUm" class="accordion-collapse collapse show" aria-labelledby="headingUm"
+                                data-bs-parent="#accordionExample3">
+                                <div class="accordion-body">
+                                    Renoir foi um artista francês muito importante do final do século XIX. Teve grande 
+                                    destaque na pintura e, junto com outros artistas, deu continuidade a uma nova maneira 
+                                    de pincelar, que ficou conhecida como impressionismo.
+                                    Apreciava a beleza da vida e levou otimismo, harmonia e tranquilidade para suas telas 
+                                    ao pintar muitas cenas ao ar livre.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingDois">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseDois" aria-expanded="false" aria-controls="collapseDois">
+                                    Curiosidade
+                                </button>
+                            </h2>
+                            <div id="collapseDois" class="accordion-collapse collapse" aria-labelledby="headingDois"
+                                data-bs-parent="#accordionExample3">
+                                <div class="accordion-body">
+                                    Renoir continuou a pintar até sua morte. Ele viveu tempo suficiente para ver um de 
+                                    seus trabalhos comprados pelo Louvre em 1919, uma grande honra para qualquer artista. 
+                                    Renoir morreu em dezembro daquele ano em sua casa em Cagnes-sur-Mer, França. Ele foi 
+                                    enterrado ao lado de sua esposa, Aline, que faleceu em 1915, em sua cidade natal de Essoyes, 
+                                    França.<br>
+                                    Além de ter deixando mais de duzentas obras de arte, Renoir serviu de inspiração para muitos 
+                                    outros artistas, Pierre Bonnard, Henri Matisse e Pablo Picasso são apenas alguns que beneficiaram 
+                                    de estilo e métodos artísticos de Renoir.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTres">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres">
+                                    Características
+                                </button>
+                            </h2>
+                            <div id="collapseTres" class="accordion-collapse collapse" aria-labelledby="headingTres"
+                                data-bs-parent="#accordionExample3">
+                                <div class="accordion-body">
+                                    Estilo Artístico. Com cores brilhantes e fortes, além de texturas e linhas harmônicas, 
+                                    o trabalho de Renoir era marcado por um sentimento lírico, além da representação de formas 
+                                    humanas individuais, em grupo ou de paisagens.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-center text-white">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+            Luma Kido - 2022
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
