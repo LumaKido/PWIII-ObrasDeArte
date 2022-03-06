@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+body{
+    overflow-x: hidden
+}
+#topo {
+    height:130px;
+}
+#titulo{
+    font-family: 'Special Elite', cursive;
+}
+#citacao{
+    padding: 100px;
+    font-family: 'Playfair Display', serif;
+    
+}
+#nome{
+    padding-top: 20px;
+
+}
+#cards{
+    height: 100%;
+}
+#scrollspyHeading1{
+    padding-top: 70px;
+    font-family: 'Quicksand', sans-serif;
+}
+#scrollspyHeading2{
+    padding-top: 35px;
+    font-family: 'Quicksand', sans-serif;
+}
+#accordionExample{
+    padding-top: 100px;
+}
+#scrollspyHeading3{
+    padding-top: 35px;
+    font-family: 'Quicksand', sans-serif;
+}
+#accordionExample2{
+    padding-top: 100px;
+}
+#scrollspyHeading4{
+    padding-top: 35px;
+    font-family: 'Quicksand', sans-serif;
+}
+#accordionExample3{
+    margin:6em auto;
+}
+footer{
+    padding-top: 30px;
+}
